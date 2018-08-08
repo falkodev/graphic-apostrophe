@@ -9,13 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:falkodev/graphic-apostrophe.git"
   },
-  "author": "P'unk Avenue",
+  "author": "falkodev",
   "license": "MIT",
   "dependencies": {
     "apostrophe": "^2.47.0",
-    "apostrophe-headless": "^2.3.0",
     "config": "^2.0.1",
     "pm2": "^3.0.3",
     "prettier": "1.14.0"
