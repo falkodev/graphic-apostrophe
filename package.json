@@ -4,8 +4,9 @@
   "description": "Minimal Apostrophe Boilerplate",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "pm2 start app.js --watch --ignore-watch='public node_modules locales' --watch"
+    "dev": "pm2 start app.js --watch --ignore-watch='public node_modules locales' --watch",
+    "lint": "prettier --write 'lib/**/*.js' 'app.js'",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,26 @@
   "dependencies": {
     "apostrophe": "^2.47.0",
     "config": "^2.0.1",
+    "husky": "1.0.0-rc.13",
+    "lint-staged": "7.2.0",
     "pm2": "^3.0.3",
     "prettier": "1.14.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "lint",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "trailingComma": "all",
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
