@@ -1,11 +1,10 @@
 {
-  "name": "apostrophe-headless",
+  "name": "graphic-apostrophe",
   "version": "2.0.0",
   "description": "Minimal Apostrophe Boilerplate",
   "main": "app.js",
   "scripts": {
     "dev": "pm2 start app.js --watch --ignore-watch='public node_modules locales' --watch",
-    "lint": "prettier --write 'lib/**/*.js' 'app.js'",
     "start": "node app.js"
   },
   "repository": {
@@ -23,8 +22,8 @@
     "prettier": "1.14.0"
   },
   "lint-staged": {
-    "*.js": [
-      "lint",
+    "**/*.js": [
+      "prettier --write '**/*.js'",
       "git add"
     ]
   },

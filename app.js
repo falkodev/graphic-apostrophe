@@ -1,8 +1,8 @@
-const path = require('path');
+const path = require('path')
 const config = require('config')
 
 const apos = require('apostrophe')({
-  shortName: 'apostrophe-headless',
+  shortName: 'graphic-apostrophe',
 
   modules: {
     // Apostrophe module configuration
@@ -12,8 +12,8 @@ const apos = require('apostrophe')({
     'apostrophe-pages': { restApi: true },
 
     // Other modules
-    ...config.get('modules')
-  }
+    ...config.get('modules'),
+  },
 })
 
 module.exports = apos
