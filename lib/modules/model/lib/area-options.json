@@ -1,0 +1,17 @@
+{
+  "name": "areaOptions",
+  "label": "Area Options",
+  "type": "checkboxes",
+  "help": "Select the widgets to add to this area",
+  "choices": [
+    {
+      "label": "Rich Text Editor",
+      "value": "apostrophe-rich-text"
+    },
+    {
+      "label": "Images",
+      "value": "apostrophe-images",
+      "showFields": ["widgetImagesOptions"]
+    }
+  ]
+}

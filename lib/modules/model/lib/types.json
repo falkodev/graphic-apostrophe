@@ -1,0 +1,32 @@
+{
+  "name": "type",
+  "label": "Type",
+  "type": "select",
+  "required": true,
+  "choices": [
+    { "label": "string", "value": "string" },
+    { "label": "area", "value": "area", "showFields": ["areaOptions"] },
+    { "label": "singleton", "value": "singleton" },
+    { "label": "slug", "value": "slug" },
+    { "label": "tags", "value": "tags" },
+    { "label": "boolean", "value": "boolean" },
+    { "label": "checkboxes", "value": "checkboxes" },
+    { "label": "select", "value": "select" },
+    { "label": "integer", "value": "integer" },
+    { "label": "float", "value": "float" },
+    { "label": "url", "value": "url" },
+    { "label": "date", "value": "date" },
+    { "label": "time", "value": "time" },
+    { "label": "password", "value": "password" },
+    { "label": "array", "value": "array" },
+    { "label": "object", "value": "object" },
+    { "label": "attachment", "value": "attachment" },
+    { "label": "video", "value": "video" },
+    { "label": "color", "value": "color" },
+    { "label": "range", "value": "range" },
+    { "label": "joinByOne", "value": "joinByOne" },
+    { "label": "joinByArray", "value": "joinByArray" },
+    { "label": "joinByOneReverse", "value": "joinByOneReverse" },
+    { "label": "joinByArrayReverse", "value": "joinByArrayReverse" }
+  ]
+}
