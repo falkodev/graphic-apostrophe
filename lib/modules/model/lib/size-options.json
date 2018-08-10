@@ -1,0 +1,15 @@
+{
+  "name": "sizeOptions",
+  "label": "size Options",
+  "type": "select",
+  "required": true,
+  "choices": [
+    { "label": "max - no larger than 1600x1600", "value": "max" },
+    { "label": "full - no larger than 1140x1140", "value": "full" },
+    { "label": "two-thirds - no larger than 760x760", "value": "two-thirds" },
+    { "label": "one-half - no larger than 570x700", "value": "one-half" },
+    { "label": "one-third: no larger than 380x700.", "value": "one-third" },
+    { "label": "one-sixth: no larger than 190x350", "value": "one-sixth" },
+    { "label": "original", "value": "original" }
+  ]
+}

@@ -4,9 +4,9 @@
   "type": "checkboxes",
   "help": "Configure this images widget",
   "choices": [
-    { "label": "minSize", "value": "minSize", "showFields": ["minSizeOption"] },
-    { "label": "aspectRatio", "value": "aspectRatio", "showFields": ["aspectRatioOption"] },
-    { "label": "limit", "value": "limit", "showFields": ["limitOption"] },
-    { "label": "size", "value": "size", "showFields": ["sizeOption"] }
+    { "label": "minSize", "value": "minSize", "showFields": ["minSizeOptions"] },
+    { "label": "aspectRatio", "value": "aspectRatio", "showFields": ["aspectRatioOptions"] },
+    { "label": "limit", "value": "limit", "showFields": ["limitOptions"] },
+    { "label": "size", "value": "size", "showFields": ["sizeOptions"] }
   ]
 }

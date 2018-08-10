@@ -1,0 +1,10 @@
+{
+  "name": "minSizeOptions",
+  "label": "minSize Options",
+  "type": "object",
+  "required": true,
+  "schema": [
+    { "name": "width", "label": "minSize Width", "type": "integer" },
+    { "name": "heigth", "label": "minSize Height", "type": "integer" }
+  ]
+}

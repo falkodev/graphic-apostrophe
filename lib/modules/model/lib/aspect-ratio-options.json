@@ -1,0 +1,10 @@
+{
+  "name": "aspectRatioOptions",
+  "label": "aspectRatio Options",
+  "type": "object",
+  "required": true,
+  "schema": [
+    { "name": "x", "label": "aspectRatio x", "type": "integer" },
+    { "name": "y", "label": "aspectRatio y", "type": "integer" }
+  ]
+}
