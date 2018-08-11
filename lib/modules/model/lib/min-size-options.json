@@ -4,7 +4,7 @@
   "type": "object",
   "required": true,
   "schema": [
-    { "name": "width", "label": "minSize Width", "type": "integer" },
-    { "name": "heigth", "label": "minSize Height", "type": "integer" }
+    { "name": "width", "label": "minSize Width", "type": "integer", "required": true },
+    { "name": "heigth", "label": "minSize Height", "type": "integer", "required": true }
   ]
 }
