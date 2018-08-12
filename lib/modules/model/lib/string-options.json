@@ -1,0 +1,10 @@
+{
+  "name": "stringOptions",
+  "label": "String Options",
+  "type": "checkboxes",
+  "choices": [
+    { "label": "Textarea", "value": "textarea", "showFields": ["textareaOptions"] },
+    { "label": "Minimum Number of Characters", "value": "min", "showFields": ["minIntegerOptions"] },
+    { "label": "Maximum Number of Characters", "value": "max", "showFields": ["maxIntegerOptions"] }
+  ]
+}

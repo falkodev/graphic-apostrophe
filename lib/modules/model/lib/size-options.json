@@ -1,6 +1,6 @@
 {
   "name": "sizeOptions",
-  "label": "size Options",
+  "label": "Size Options",
   "type": "select",
   "required": true,
   "choices": [

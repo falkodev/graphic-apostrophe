@@ -4,7 +4,7 @@
   "type": "select",
   "required": true,
   "choices": [
-    { "label": "string", "value": "string" },
+    { "label": "string", "value": "string", "showFields": ["stringOptions"] },
     { "label": "area", "value": "area", "showFields": ["areaOptions"] },
     { "label": "singleton", "value": "singleton" },
     { "label": "slug", "value": "slug" },

@@ -1,0 +1,6 @@
+{
+  "name": "maxIntegerOptions",
+  "label": "Max Integer Options",
+  "type": "integer",
+  "min": 1
+}

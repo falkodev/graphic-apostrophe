@@ -1,7 +1,7 @@
 {
   "name": "limitOptions",
-  "label": "limit Option",
+  "label": "Limit Option",
   "type": "integer",
   "min": 1,
-  "required": true
+  "def": 5
 }

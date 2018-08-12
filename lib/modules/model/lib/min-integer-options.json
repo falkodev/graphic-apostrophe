@@ -1,0 +1,6 @@
+{
+  "name": "minIntegerOptions",
+  "label": "Min Integer Options",
+  "type": "integer",
+  "min": 1
+}

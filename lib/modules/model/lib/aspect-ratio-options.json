@@ -1,10 +1,10 @@
 {
   "name": "aspectRatioOptions",
-  "label": "aspectRatio Options",
+  "label": "Aspect Ratio Options",
   "type": "object",
   "required": true,
   "schema": [
-    { "name": "x", "label": "aspectRatio x", "type": "integer", "required": true },
-    { "name": "y", "label": "aspectRatio y", "type": "integer", "required": true }
+    { "name": "x", "label": "Aspect Ratio X", "type": "integer" },
+    { "name": "y", "label": "Aspect Ratio Y", "type": "integer" }
   ]
 }

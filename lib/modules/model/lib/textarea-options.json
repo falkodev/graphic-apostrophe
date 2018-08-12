@@ -1,0 +1,6 @@
+{
+  "name": "textareaOptions",
+  "label": "Textarea Option",
+  "type": "boolean",
+  "def": true
+}
