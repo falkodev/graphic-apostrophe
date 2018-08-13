@@ -1,0 +1,6 @@
+{
+  "name": "minSizeWidth",
+  "label": "Min Size Width",
+  "type": "integer",
+  "required": true
+}

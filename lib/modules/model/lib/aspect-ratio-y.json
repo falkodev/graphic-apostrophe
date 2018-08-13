@@ -1,0 +1,6 @@
+{
+  "name": "aspectRatioY",
+  "label": "Aspect Ratio Y",
+  "type": "integer",
+  "required": true
+}

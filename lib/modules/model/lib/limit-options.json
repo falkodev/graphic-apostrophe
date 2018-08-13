@@ -3,5 +3,5 @@
   "label": "Limit Option",
   "type": "integer",
   "min": 1,
-  "def": 5
+  "required": true
 }

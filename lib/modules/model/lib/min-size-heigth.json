@@ -1,0 +1,6 @@
+{
+  "name": "minSizeHeigth",
+  "label": "Min Size Heigth",
+  "type": "integer",
+  "required": true
+}
