@@ -1,0 +1,6 @@
+{
+  "name": "slugOptions",
+  "label": "Slug Option",
+  "help": "Fill with the field name to slugify",
+  "type": "string"
+}
